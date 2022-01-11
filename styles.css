@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Oswald:wght@700&family=Playfair+Display:wght@600&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #7FC8A9;
+}
+
+.container{
+    max-width: 80%;
+    background-color: #D5EEBB;
+    padding: 34px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    color: #184D47;
+}
+
+hr{
+    border: 1px solid #184D47;  
+    margin-bottom: 10px;
+}
+
+p{
+   font-family: 'Ubuntu', sans-serif;
+   font-weight: bold; 
+   margin-top: 20px; 
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+}
+
+textarea, input{
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid #184D47;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+}
+
+textarea{
+    height: 150px;
+}
+
+#ans_three{
+    height: 80px;
+}
+
+input{
+    width: 70%;
+}
+
+.btn{
+    margin-top: 15px;
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #184D47;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    background-color: #021412;
+}

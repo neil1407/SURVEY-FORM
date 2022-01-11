@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div class="container">
+        <h2>Welcome to the survey</h2>
+        <hr>
+
+        <form action="index.php" method="post">
+            <p>What is your biggest problem with Online Coaching ?</p>
+            <textarea name="ans_one" id="ans_one" cols="30" rows="10" placeholder="Your answer"></textarea>
+            <p>Why would it make a difference in your life to get a good answer for this problem or find a solution for
+                your need ?</p>
+            <textarea name="ans_two" id="ans_two" cols="30" rows="10" placeholder="Your answer"></textarea>
+            <p>How difficult has it been for you to find a solution for the above till date ?</p>
+            <textarea name="ans_three" id="ans_three" cols="4" rows="2" placeholder="Your answer"></textarea>
+            <p>Add your Name and Email below if you would liketo be contacted when we ave a solution to your problem</p>
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+            <input type="text" name="email" id="email" placeholder="Enter Your Email">
+            <button class="btn">Submit Details</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
