@@ -80,3 +80,20 @@ input{
 .btn:hover{
     background-color: #021412;
 }
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.foot{
+  margin-top: 10px;
+}
+
+.social{
+  padding: 2%;
+}
+
+.social-link{
+  color:#1e836c;
+}
